@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Add Data</title>
+</head>
+
+<body bgcolor="#B8FBFB">
+    <center><font="+3"><a href="index.php">Home</a> <br> <a href="view.php">View Products</a> <br> <a href="logout.php">Logout</a>
+    <br/><br/><hr>
+    
+    <form action="add.php" method="post" name="form1"  enctype="multipart/form-data">
+        <table width="25%" border="0.5" align="center" font="+3" cellspacing="20">
+            <tr> 
+                <td>Category</td>
+                <td><input type="text" name="category"></td>
+            </tr>
+            <tr> 
+                <td>Product</td>
+                <td><input type="text" name="product"></td>
+            </tr>
+            <tr> 
+                <td>Quantity</td>
+                <td><input type="text" name="qty"></td>
+            </tr>
+            <tr> 
+                <td>Price</td>
+                <td><input type="text" name="price"></td>
+            </tr>
+            <tr>
+                <td>file select</td>
+                <td> 
+                  <input type="file" 
+                         name="uploadfile" 
+                         value="" /></td>
+            </tr>
+            <tr> 
+                <td></td>
+                <td><input type="submit" name="Submit" value="Add"></td>
+            </tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>
